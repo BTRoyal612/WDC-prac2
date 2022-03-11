@@ -1,0 +1,30 @@
+h1 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: serif;
+}
+
+p span a {
+    color: darkgreen;
+}
+
+p del {
+    color: grey;
+}
+
+p mark {
+    color: darkblue;
+    background-color: pink;
+}
+
+h2 {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 100%;
+}
