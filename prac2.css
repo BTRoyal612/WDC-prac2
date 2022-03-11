@@ -1,3 +1,64 @@
+h1 {
+    color: red;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+p span {
+    color: orange;
+}
+
+p del {
+    color: grey;
+}
+
+p mark {
+    color: dimgrey;
+    background-color: pink;
+}
+
+h2 {
+    text-align: center;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 80%;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: serif;
+}
+
+p span a {
+    color: darkgreen;
+}
+
+p del {
+    color: grey;
+}
+
+p mark {
+    color: darkblue;
+    background-color: pink;
+}
+
+h2 {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 100%;
+}
+
 h3 {
     color: rgba(0, 0, 139, 0.8);
 }
