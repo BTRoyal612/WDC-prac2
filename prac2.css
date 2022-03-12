@@ -100,7 +100,6 @@ hr {
 
 .red-border {
     border: red solid;
-    color: black;
 }
 
 .red-outline {
@@ -119,4 +118,35 @@ hr {
 
 .rounded-bottom {
     border-radius: 0px 0px 8px 8px;
+}
+
+.outer {
+    background-color: blue;
+}
+
+.inner {
+    background-color: yellow;
+}
+
+.inner1 {
+    text-align: right;
+    margin: 10px 20px;
+    padding: 12px;
+    height: 174px;
+    width: 674px;
+}
+
+.inner2 {
+    text-align: right;
+    padding: 12px;
+    height: 400px;
+    width: 400px;
+}
+
+.outer2 {
+    width: 100%;
+    margin-top: 12px;
+    padding: none;
+    display: flex;
+    justify-content: center;
 }
