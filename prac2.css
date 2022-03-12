@@ -146,7 +146,6 @@ hr {
 .outer2 {
     width: 100%;
     margin-top: 12px;
-    padding: none;
     display: flex;
     justify-content: center;
 }
