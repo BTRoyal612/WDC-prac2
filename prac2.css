@@ -99,7 +99,7 @@ hr {
 }
 
 .red-border {
-    border: red solid;
+    border: red solid 1px;
 }
 
 .red-outline {
@@ -122,6 +122,9 @@ hr {
 
 .outer {
     background-color: blue;
+    display: flex;
+    width: 740px;
+    box-sizing: border-box;
 }
 
 .inner {
@@ -132,8 +135,9 @@ hr {
     text-align: right;
     margin: 10px 20px;
     padding: 12px;
-    height: 174px;
-    width: 674px;
+    height: 200px;
+    width: 700px;
+    box-sizing: border-box;
 }
 
 .inner2 {
@@ -144,8 +148,6 @@ hr {
 }
 
 .outer2 {
-    width: 100%;
     margin-top: 12px;
-    display: flex;
     justify-content: center;
 }
