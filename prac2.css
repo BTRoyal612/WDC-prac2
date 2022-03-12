@@ -75,3 +75,16 @@ body {
 h1 {
     color: black;
 }
+
+#content {
+    background-color: white;
+}
+
+.fancy {
+    font-family: cursive;
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
