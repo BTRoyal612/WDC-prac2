@@ -88,3 +88,35 @@ h1 {
 .blue {
     color: blue;
 }
+
+#content {
+    border: darkgrey solid 1px;
+    border-radius: 8px;
+}
+
+hr {
+    color: #CFDFE4;
+}
+
+.red-border {
+    border: red solid;
+    color: black;
+}
+
+.red-outline {
+    outline: red solid;
+    color: black;
+}
+
+.blue-border {
+    border: blue solid;
+}
+
+.rounded-top {
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: none;
+}
+
+.rounded-bottom {
+    border-radius: 0px 0px 8px 8px;
+}
