@@ -2,9 +2,9 @@ h1 {
     color: red;
 }
 
-p {
+/* p {
     font-family: sans-serif;
-}
+} */
 
 p span {
     color: orange;
@@ -23,7 +23,7 @@ h2 {
     text-align: center;
 }
 
-pre {
+/* pre {
     font-family: monospace;
     font-size: 80%;
 }
@@ -34,7 +34,7 @@ h1 {
 
 p {
     font-family: serif;
-}
+} */
 
 p span a {
     color: darkgreen;
@@ -54,10 +54,10 @@ h2 {
     font-family: sans-serif;
 }
 
-pre {
+/* pre {
     font-family: monospace;
     font-size: 100%;
-}
+} */
 
 h3 {
     color: rgba(0, 0, 139, 0.8);
@@ -80,10 +80,10 @@ h1 {
     background-color: white;
 }
 
-.fancy {
+/* .fancy {
     font-family: cursive;
     color: black;
-}
+} */
 
 .blue {
     color: blue;
@@ -149,3 +149,36 @@ hr {
 .outer2 {
     margin-top: 20px;
 }
+
+.headings {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+#content blockquote {
+    font-family: 'Raleway';
+    color: dimgrey;
+    line-height: 1.5;
+    word-spacing: 0.2em;
+    text-align: justify;
+}
+
+#content h4 {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#content div {
+    display: flex;
+    justify-content: center;
+}
+
+#content div i {
+    color: #BFCFD4;
+}
+
+
