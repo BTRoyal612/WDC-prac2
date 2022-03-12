@@ -66,3 +66,12 @@ h3 {
 .transparent-text {
     color: rgba(0, 0, 0, 0.5);
 }
+
+body {
+    background-image: url(cross.png);
+    background-color: #DCF5F5;
+}
+
+h1 {
+    color: black;
+}
