@@ -208,3 +208,56 @@ body {
 .roman-list {
     list-style-type: lower-roman;
 }
+
+.fancy {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.fancy th, td {
+    padding: 0.2em;
+}
+
+.fancy th {
+    color: white;
+    background-color: darkslategrey;
+    text-align: left;
+    font-family: serif;
+}
+
+.fancy tr {
+    border-bottom: 2px solid darkgrey;
+    color: black;
+    background-color: white;
+}
+
+.fancy tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.complex {
+    border-collapse: collapse;
+    width: 500px;
+
+}
+
+.complex th, td {
+    padding: 0.2em;
+}
+
+.complex th {
+    color: black;
+    background-color: palegoldenrod;
+    text-align: left;
+    font-family: serif;
+    border: 2px solid black;
+}
+
+.complex td {
+    color: black;
+    background-color: white;
+    text-align: left;
+    font-family: serif;
+    border: 2px solid grey;
+}
+
